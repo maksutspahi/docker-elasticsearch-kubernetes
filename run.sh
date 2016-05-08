@@ -13,8 +13,9 @@ export NODE_MASTER=${NODE_MASTER:-true}
 export NODE_DATA=${NODE_DATA:-true}
 export HTTP_ENABLE=${HTTP_ENABLE:-true}
 export HTTP_CORS_ENABLE=${HTTP_CORS_ENABLE:-true}
-export NETWORK_HOST=${NETWORK_HOST:-_site_}
+export NETWORK_HOST=${NETWORK_HOST:-0.0.0.0}
 export MULTICAST=${MULTICAST:-true}
+export ES_HEAP_SIZE=2g
 
 # Kubernetes stuff
 export NAMESPACE=${NAMESPACE:-default}
